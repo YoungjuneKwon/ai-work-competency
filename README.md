@@ -2,8 +2,6 @@
 
 **Second Tiger**
 
-![Second Tiger 인장](skills/ai-work-competency/assets/second-tiger-navy-512.png)
-
 내가 쓰는 AI와 함께 가상의 기업 업무를 수행하며, AI 활용 능력을 확인하는 자가평가 스킬입니다. 스킬이 새로운 업무 상황과 분석 자료를 만들고, 여러분이 AI에게 내리는 지시와 결과를 검토·개선하는 과정을 평가합니다.
 
 평가 문제는 기획, 상황 분석, 업무보고 등으로 구성됩니다. 외부 자료 조사 또는 제공된 내부 자료 분석을 거쳐야 해결할 수 있습니다. 기본 제한 시간은 **과제당 15분**입니다.
@@ -89,3 +87,5 @@ Second Tiger의 AI 업무 활용 능력 자가평가 스킬을 불러와 실제 
 ## Second Tiger
 
 Second Tiger의 콘텐츠·공개 도구 구상으로 제작 중입니다. 웹사이트: https://secondtiger.com
+
+<img src="skills/ai-work-competency/assets/second-tiger-navy-512.png" alt="Second Tiger 인장" width="80" height="80">
