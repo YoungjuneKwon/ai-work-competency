@@ -14,6 +14,8 @@
 
 아래 프롬프트를 복사해 평소 사용하는 AI 서비스의 **새 대화**에 붙여넣으세요. 스킬 설치 기능이나 웹 접근 가능 여부에 따라 AI가 진행 방법을 안내합니다.
 
+**모바일 복사 안내:** 코드 블록에 복사 버튼이 보이면 그 버튼을 사용하세요. 링크를 길게 눌러 `링크 복사`를 선택하면 프롬프트 본문 대신 주소가 복사될 수 있습니다. 붙여넣은 내용에 `%EC%`, `%20`, `%0A`가 길게 나타나면 전송하지 말고 지운 뒤 다시 복사하세요. 분야별 일반 텍스트 파일도 아래에 제공합니다. 파일을 열어 **본문 전체를 선택·복사**하세요. 파일 링크 자체를 복사하는 것과는 다릅니다.
+
 ```text
 Second Tiger의 AI 업무 활용 능력 자가평가 스킬을 불러와 실제 테스트를 시작해 주세요.
 
@@ -51,6 +53,16 @@ Second Tiger의 AI 업무 활용 능력 자가평가 스킬을 불러와 실제 
 | 연구·실험·데이터분석 | 가설·실험 설계·반복 측정·오차·결과 해석·후속 실험 |
 | 생산·공정·품질 | 수율·불량·공정 조건·설비 병목·품질 개선 |
 
+일반 텍스트로 열기:
+[경영·사업기획](https://raw.githubusercontent.com/YoungjuneKwon/ai-work-competency/main/prompts/strategy.txt) ·
+[마케팅·영업](https://raw.githubusercontent.com/YoungjuneKwon/ai-work-competency/main/prompts/marketing-sales.txt) ·
+[재무·관리회계](https://raw.githubusercontent.com/YoungjuneKwon/ai-work-competency/main/prompts/finance.txt) ·
+[운영·구매·고객지원](https://raw.githubusercontent.com/YoungjuneKwon/ai-work-competency/main/prompts/operations.txt) ·
+[인사·조직](https://raw.githubusercontent.com/YoungjuneKwon/ai-work-competency/main/prompts/people.txt) ·
+[기술·제품개발](https://raw.githubusercontent.com/YoungjuneKwon/ai-work-competency/main/prompts/engineering.txt) ·
+[연구·실험·데이터분석](https://raw.githubusercontent.com/YoungjuneKwon/ai-work-competency/main/prompts/research.txt) ·
+[생산·공정·품질](https://raw.githubusercontent.com/YoungjuneKwon/ai-work-competency/main/prompts/manufacturing.txt)
+
 업무 분야가 달라도 평가 기준은 같은 5영역 25항목입니다. 분야별 전문지식보다 AI를 활용하는 과정을 평가합니다.
 
 기술·연구·생산 분야는 소프트웨어·전자·기계·소재·환경 등에도 적용할 수 있습니다. 필요한 공식·용어·측정 조건과 내부 데이터는 문제에 제공합니다. 실제 코딩 환경 구축이나 장비 조작 없이 분석·검증 계획을 텍스트로 작성할 수 있습니다. 분야 이름 뒤에 “전자제품 개발”, “소재 실험” 등 원하는 세부 맥락을 덧붙여도 됩니다.
@@ -58,7 +70,8 @@ Second Tiger의 AI 업무 활용 능력 자가평가 스킬을 불러와 실제 
 ### 1. 경영·사업기획
 
 ```text
-https://github.com/YoungjuneKwon/ai-work-competency 의 Second Tiger 평가 스킬로 제 AI 활용 능력을 테스트해 주세요.
+Second Tiger 평가 스킬로 제 AI 활용 능력을 테스트해 주세요.
+저장소 주소: https://github.com/YoungjuneKwon/ai-work-competency
 저장소의 skills/ai-work-competency/SKILL.md, references/rubric.md, references/scenario-generation.md(참조 파일은 같은 스킬 폴더 아래)를 모두 원문으로 읽어 주세요. 설치를 지원하면 정식 방식으로 설치하고, 아니면 이 대화에 적용한 뒤 방식을 알려 주세요. 원문 접근이 안 되면 세 파일 첨부를 요청하고 기다려 주세요.
 업무 분야는 「경영·사업기획」(strategy)입니다. 분야를 다시 묻지 말고, 가상의 중소기업에서 신규 사업·시장 진입·사업 우선순위 등을 판단할 새 문제 하나와 자료를 제시해 주세요. 표준 난이도, 제한 시간 15분이며 외부 조사 또는 복수 내부 자료 분석이 반드시 필요해야 합니다. 검색이 안 되면 합성 내부 자료를 제공해 주세요.
 문제 맨 위에 공식 인장을 표시하고, 자료 맨 끝에 시작·마감 시각과 제한 시간, 「평가해줘 / 평가 실시」로 조기 종료·평가할 수 있다는 안내를 넣은 뒤 제 첫 지시를 기다려 주세요. 매 응답에 남은 시간을 표시하고 기한 이후 입력은 새 작업 없이 즉시 평가해 주세요. 시각 조회가 안 되면 추정하지 말고 사용자 타이머 방식으로 안내해 주세요. 수행 기록을 공통 25항목과 가중치로 채점해 주세요.
@@ -67,7 +80,8 @@ https://github.com/YoungjuneKwon/ai-work-competency 의 Second Tiger 평가 스�
 ### 2. 마케팅·영업
 
 ```text
-https://github.com/YoungjuneKwon/ai-work-competency 의 Second Tiger 평가 스킬로 제 AI 활용 능력을 테스트해 주세요.
+Second Tiger 평가 스킬로 제 AI 활용 능력을 테스트해 주세요.
+저장소 주소: https://github.com/YoungjuneKwon/ai-work-competency
 저장소의 skills/ai-work-competency/SKILL.md, references/rubric.md, references/scenario-generation.md(참조 파일은 같은 스킬 폴더 아래)를 모두 원문으로 읽어 주세요. 설치를 지원하면 정식 방식으로 설치하고, 아니면 이 대화에 적용한 뒤 방식을 알려 주세요. 원문 접근이 안 되면 세 파일 첨부를 요청하고 기다려 주세요.
 업무 분야는 「마케팅·영업」(marketing-sales)입니다. 분야를 다시 묻지 말고, 가상의 중소기업에서 캠페인·판매 채널·고객 반응 등을 분석해 개선안을 보고할 새 문제 하나와 자료를 제시해 주세요. 표준 난이도, 제한 시간 15분이며 외부 조사 또는 복수 내부 자료 분석이 반드시 필요해야 합니다. 검색이 안 되면 합성 내부 자료를 제공해 주세요.
 문제 맨 위에 공식 인장을 표시하고, 자료 맨 끝에 시작·마감 시각과 제한 시간, 「평가해줘 / 평가 실시」로 조기 종료·평가할 수 있다는 안내를 넣은 뒤 제 첫 지시를 기다려 주세요. 매 응답에 남은 시간을 표시하고 기한 이후 입력은 새 작업 없이 즉시 평가해 주세요. 시각 조회가 안 되면 추정하지 말고 사용자 타이머 방식으로 안내해 주세요. 수행 기록을 공통 25항목과 가중치로 채점해 주세요.
@@ -76,7 +90,8 @@ https://github.com/YoungjuneKwon/ai-work-competency 의 Second Tiger 평가 스�
 ### 3. 재무·관리회계
 
 ```text
-https://github.com/YoungjuneKwon/ai-work-competency 의 Second Tiger 평가 스킬로 제 AI 활용 능력을 테스트해 주세요.
+Second Tiger 평가 스킬로 제 AI 활용 능력을 테스트해 주세요.
+저장소 주소: https://github.com/YoungjuneKwon/ai-work-competency
 저장소의 skills/ai-work-competency/SKILL.md, references/rubric.md, references/scenario-generation.md(참조 파일은 같은 스킬 폴더 아래)를 모두 원문으로 읽어 주세요. 설치를 지원하면 정식 방식으로 설치하고, 아니면 이 대화에 적용한 뒤 방식을 알려 주세요. 원문 접근이 안 되면 세 파일 첨부를 요청하고 기다려 주세요.
 업무 분야는 「재무·관리회계」(finance)입니다. 분야를 다시 묻지 말고, 가상의 중소기업에서 예산·손익·비용·현금흐름 등을 분석해 자금 배분이나 비용 개선을 판단할 새 문제 하나와 자료를 제시해 주세요. 전문 계산 용어는 자료에 정의해 주세요. 표준 난이도, 제한 시간 15분이며 외부 조사 또는 복수 내부 자료 분석이 반드시 필요해야 합니다. 검색이 안 되면 합성 내부 자료를 제공해 주세요.
 문제 맨 위에 공식 인장을 표시하고, 자료 맨 끝에 시작·마감 시각과 제한 시간, 「평가해줘 / 평가 실시」로 조기 종료·평가할 수 있다는 안내를 넣은 뒤 제 첫 지시를 기다려 주세요. 매 응답에 남은 시간을 표시하고 기한 이후 입력은 새 작업 없이 즉시 평가해 주세요. 시각 조회가 안 되면 추정하지 말고 사용자 타이머 방식으로 안내해 주세요. 수행 기록을 공통 25항목과 가중치로 채점해 주세요.
@@ -85,7 +100,8 @@ https://github.com/YoungjuneKwon/ai-work-competency 의 Second Tiger 평가 스�
 ### 4. 운영·구매·고객지원
 
 ```text
-https://github.com/YoungjuneKwon/ai-work-competency 의 Second Tiger 평가 스킬로 제 AI 활용 능력을 테스트해 주세요.
+Second Tiger 평가 스킬로 제 AI 활용 능력을 테스트해 주세요.
+저장소 주소: https://github.com/YoungjuneKwon/ai-work-competency
 저장소의 skills/ai-work-competency/SKILL.md, references/rubric.md, references/scenario-generation.md(참조 파일은 같은 스킬 폴더 아래)를 모두 원문으로 읽어 주세요. 설치를 지원하면 정식 방식으로 설치하고, 아니면 이 대화에 적용한 뒤 방식을 알려 주세요. 원문 접근이 안 되면 세 파일 첨부를 요청하고 기다려 주세요.
 업무 분야는 「운영·구매·고객지원」(operations)입니다. 분야를 다시 묻지 말고, 가상의 중소기업에서 공급업체·재고·납기·문의 대응 중 하나의 운영 개선안을 판단할 새 문제 하나와 자료를 제시해 주세요. 표준 난이도, 제한 시간 15분이며 외부 조사 또는 복수 내부 자료 분석이 반드시 필요해야 합니다. 검색이 안 되면 합성 내부 자료를 제공해 주세요.
 문제 맨 위에 공식 인장을 표시하고, 자료 맨 끝에 시작·마감 시각과 제한 시간, 「평가해줘 / 평가 실시」로 조기 종료·평가할 수 있다는 안내를 넣은 뒤 제 첫 지시를 기다려 주세요. 매 응답에 남은 시간을 표시하고 기한 이후 입력은 새 작업 없이 즉시 평가해 주세요. 시각 조회가 안 되면 추정하지 말고 사용자 타이머 방식으로 안내해 주세요. 수행 기록을 공통 25항목과 가중치로 채점해 주세요.
@@ -94,7 +110,8 @@ https://github.com/YoungjuneKwon/ai-work-competency 의 Second Tiger 평가 스�
 ### 5. 인사·조직
 
 ```text
-https://github.com/YoungjuneKwon/ai-work-competency 의 Second Tiger 평가 스킬로 제 AI 활용 능력을 테스트해 주세요.
+Second Tiger 평가 스킬로 제 AI 활용 능력을 테스트해 주세요.
+저장소 주소: https://github.com/YoungjuneKwon/ai-work-competency
 저장소의 skills/ai-work-competency/SKILL.md, references/rubric.md, references/scenario-generation.md(참조 파일은 같은 스킬 폴더 아래)를 모두 원문으로 읽어 주세요. 설치를 지원하면 정식 방식으로 설치하고, 아니면 이 대화에 적용한 뒤 방식을 알려 주세요. 원문 접근이 안 되면 세 파일 첨부를 요청하고 기다려 주세요.
 업무 분야는 「인사·조직」(people)입니다. 분야를 다시 묻지 말고, 가상의 중소기업에서 온보딩·교육·인력 배치·조직 설문 등을 분석해 조직 운영 개선안을 보고할 새 문제 하나와 자료를 제시해 주세요. 표준 난이도, 제한 시간 15분이며 외부 조사 또는 복수 내부 자료 분석이 반드시 필요해야 합니다. 검색이 안 되면 합성 내부 자료를 제공해 주세요.
 문제 맨 위에 공식 인장을 표시하고, 자료 맨 끝에 시작·마감 시각과 제한 시간, 「평가해줘 / 평가 실시」로 조기 종료·평가할 수 있다는 안내를 넣은 뒤 제 첫 지시를 기다려 주세요. 매 응답에 남은 시간을 표시하고 기한 이후 입력은 새 작업 없이 즉시 평가해 주세요. 시각 조회가 안 되면 추정하지 말고 사용자 타이머 방식으로 안내해 주세요. 수행 기록을 공통 25항목과 가중치로 채점해 주세요.
@@ -103,7 +120,8 @@ https://github.com/YoungjuneKwon/ai-work-competency 의 Second Tiger 평가 스�
 ### 6. 기술·제품개발
 
 ```text
-https://github.com/YoungjuneKwon/ai-work-competency 의 Second Tiger 평가 스킬로 제 AI 활용 능력을 테스트해 주세요.
+Second Tiger 평가 스킬로 제 AI 활용 능력을 테스트해 주세요.
+저장소 주소: https://github.com/YoungjuneKwon/ai-work-competency
 저장소의 skills/ai-work-competency/SKILL.md, skills/ai-work-competency/references/rubric.md, skills/ai-work-competency/references/scenario-generation.md를 모두 원문으로 읽어 주세요. 설치를 지원하면 정식 방식으로 설치하고, 아니면 이 대화에 적용한 뒤 방식을 알려 주세요. 원문 접근이 안 되면 세 파일 첨부를 요청하고 기다려 주세요.
 업무 분야는 「기술·제품개발」(engineering)입니다. 분야를 다시 묻지 말고, 가상의 제품이나 시스템의 요구사항·성능 시험·장애 로그 등을 대조해 설계안을 선택하거나 원인 후보와 검증 계획을 제시하는 새 문제 하나를 만들어 주세요. 표준 난이도, 제한 시간 15분입니다. 필요한 기술 용어·공식·기준과 내부 자료는 처음부터 제공해 주세요. 실제 코드 실행이나 장비 조작을 요구하지 마세요. 외부 조사는 업무에 직접 관련된 공개 객관 지표로만 한정하고, 적합한 지표가 없으면 복수 내부 자료 분석형으로 진행해 주세요.
 문제 맨 위에 공식 인장을 표시하고 자료 맨 끝에 시작·마감 시각과 제한 시간, 「평가해줘 / 평가 실시」로 조기 평가할 수 있다는 안내를 넣은 뒤 제 첫 지시를 기다려 주세요. 매 응답에 남은 시간을 표시하고 기한 이후 입력에는 새 작업 없이 즉시 평가해 주세요. 시각 조회가 안 되면 추정하지 말고 사용자 타이머 방식을 안내해 주세요. 수행 기록을 공통 25항목과 가중치로 채점해 주세요.
@@ -112,7 +130,8 @@ https://github.com/YoungjuneKwon/ai-work-competency 의 Second Tiger 평가 스�
 ### 7. 연구·실험·데이터분석
 
 ```text
-https://github.com/YoungjuneKwon/ai-work-competency 의 Second Tiger 평가 스킬로 제 AI 활용 능력을 테스트해 주세요.
+Second Tiger 평가 스킬로 제 AI 활용 능력을 테스트해 주세요.
+저장소 주소: https://github.com/YoungjuneKwon/ai-work-competency
 저장소의 skills/ai-work-competency/SKILL.md, skills/ai-work-competency/references/rubric.md, skills/ai-work-competency/references/scenario-generation.md를 모두 원문으로 읽어 주세요. 설치를 지원하면 정식 방식으로 설치하고, 아니면 이 대화에 적용한 뒤 방식을 알려 주세요. 원문 접근이 안 되면 세 파일 첨부를 요청하고 기다려 주세요.
 업무 분야는 「연구·실험·데이터분석」(research)입니다. 분야를 다시 묻지 말고, 가상의 연구 과제에서 가설·대조 조건·반복 측정·오차 등을 검토해 결과를 해석하고 후속 실험을 제안하는 새 문제 하나를 만들어 주세요. 표준 난이도, 제한 시간 15분입니다. 필요한 공식·용어·실험 방법·측정 자료는 처음부터 제공해 주세요. 실제 실험이나 논문 접근을 요구하지 마세요. 외부 조사는 업무에 직접 관련된 공개 객관 지표로만 한정하고, 적합한 지표가 없으면 복수 내부 자료 분석형으로 진행해 주세요.
 문제 맨 위에 공식 인장을 표시하고 자료 맨 끝에 시작·마감 시각과 제한 시간, 「평가해줘 / 평가 실시」로 조기 평가할 수 있다는 안내를 넣은 뒤 제 첫 지시를 기다려 주세요. 매 응답에 남은 시간을 표시하고 기한 이후 입력에는 새 작업 없이 즉시 평가해 주세요. 시각 조회가 안 되면 추정하지 말고 사용자 타이머 방식을 안내해 주세요. 수행 기록을 공통 25항목과 가중치로 채점해 주세요.
@@ -121,7 +140,8 @@ https://github.com/YoungjuneKwon/ai-work-competency 의 Second Tiger 평가 스�
 ### 8. 생산·공정·품질
 
 ```text
-https://github.com/YoungjuneKwon/ai-work-competency 의 Second Tiger 평가 스킬로 제 AI 활용 능력을 테스트해 주세요.
+Second Tiger 평가 스킬로 제 AI 활용 능력을 테스트해 주세요.
+저장소 주소: https://github.com/YoungjuneKwon/ai-work-competency
 저장소의 skills/ai-work-competency/SKILL.md, skills/ai-work-competency/references/rubric.md, skills/ai-work-competency/references/scenario-generation.md를 모두 원문으로 읽어 주세요. 설치를 지원하면 정식 방식으로 설치하고, 아니면 이 대화에 적용한 뒤 방식을 알려 주세요. 원문 접근이 안 되면 세 파일 첨부를 요청하고 기다려 주세요.
 업무 분야는 「생산·공정·품질」(manufacturing)입니다. 분야를 다시 묻지 말고, 가상의 생산 현장에서 로트별 생산·불량·공정 조건·설비 가동 기록을 대조해 원인 후보와 개선·검증 계획을 제시하는 새 문제 하나를 만들어 주세요. 표준 난이도, 제한 시간 15분입니다. 필요한 계산 정의·단위·품질 기준과 내부 자료는 처음부터 제공해 주세요. 실제 설비 조작이나 회사 내부 자료 확보를 요구하지 마세요. 외부 조사는 업무에 직접 관련된 공개 객관 지표로만 한정하고, 적합한 지표가 없으면 복수 내부 자료 분석형으로 진행해 주세요.
 문제 맨 위에 공식 인장을 표시하고 자료 맨 끝에 시작·마감 시각과 제한 시간, 「평가해줘 / 평가 실시」로 조기 평가할 수 있다는 안내를 넣은 뒤 제 첫 지시를 기다려 주세요. 매 응답에 남은 시간을 표시하고 기한 이후 입력에는 새 작업 없이 즉시 평가해 주세요. 시각 조회가 안 되면 추정하지 말고 사용자 타이머 방식을 안내해 주세요. 수행 기록을 공통 25항목과 가중치로 채점해 주세요.
